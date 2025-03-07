@@ -4,7 +4,8 @@ app:
 
 deployment:
   runtime: "python"
-  entrypoint: "main.py" 
+  entrypoint: "main.py"
+
 resources:
   cpu: "2"
   memory: "4GB"
